@@ -1,0 +1,35 @@
+{
+  "openAccount_link": {
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": "Open New Account"
+  },
+  "accountType_dropdown": {
+    "id": "",
+    "class": "",
+    "xpath": "//select[@id='type' and @class='input']",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "openNewAccount_button": {
+    "id": "",
+    "class": "",
+    "xpath": "//input[@value='Open New Account' and @class='button']",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "successMessage_label": {
+    "id": "",
+    "class": "",
+    "xpath": "//*[@id='openAccountResult']/h1",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  }
+
+}

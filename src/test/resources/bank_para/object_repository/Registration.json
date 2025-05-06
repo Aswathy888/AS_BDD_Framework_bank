@@ -1,0 +1,118 @@
+{
+  "Registration_link": {
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": "Register"
+  },
+  "firstName_textBox": {
+    "id": "customer.firstName",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "lastName_textBox": {
+    "id": "customer.lastName",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "address_textBox": {
+    "id": "customer.address.street",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "city_textBox":{
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "customer.address.city",
+    "css": "",
+    "link_text": ""
+  },
+  "state_textBox": {
+    "id": "",
+    "class": "",
+    "xpath": "//input[@id='customer.address.state']",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+  "zipcode_textBox":
+  {
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "input[id='customer.address.zipCode']",
+    "link_text": ""
+
+  },
+  "phoneNumber_textBox":
+  {
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "input[id='customer.phoneNumber']",
+    "link_text": ""
+
+  },
+  "ssn_textBox":
+  {
+    "id": "",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "input[id='customer.ssn'][id='customer.ssn']",
+    "link_text": ""
+
+  },
+  "username_textBox":
+  {
+    "id": "customer.username",
+    "class": "",
+    "xpath": "",
+    "name": "",
+    "css": "",
+    "link_text": ""
+  },
+"password_textBox":
+{
+  "id": "",
+  "class": "",
+  "xpath": "",
+  "name": "customer.password",
+  "css": "",
+  "link_text": ""
+},
+  "confirm_textBox":
+  {
+    "id": "",
+    "class": "",
+    "xpath": "//input[contains(@id,'repeatedPassword')]",
+    "name": "",
+    "css": "",
+    "link_text": ""
+
+  },
+  "register_button":
+  {
+    "id": "",
+    "class": "",
+    "xpath": "//input[@type='submit' and @value='Register']",
+    "name": "",
+    "css": "",
+    "link_text": ""
+
+  }
+}

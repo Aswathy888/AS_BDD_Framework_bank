@@ -1,8 +1,8 @@
 {
-  "Registration_link": {
+  "Registration_link1": {
     "id": "",
     "class": "test",
-    "xpath": "",
+    "xpath": "a",
     "name": "",
     "css": "",
     "link_text": "Register"

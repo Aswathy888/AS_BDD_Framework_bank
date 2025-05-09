@@ -14,3 +14,12 @@ Feature: Testcases for ParaBank application-registration of a customer.
       | home     | user1   |
 
 
+Scenario Outline: Alfred Scenario
+    Given the user navigated to the <homePage>
+    When the user clicks on register button
+    Then error.
+
+    Examples:
+      | homePage | details |
+      | home     | user1   |
+

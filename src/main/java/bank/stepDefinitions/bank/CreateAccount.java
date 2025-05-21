@@ -58,4 +58,10 @@ public class CreateAccount extends Framework {
     public void anAccountShouldBeSuccessfullyCreated() throws IOException {
         driver.findElement(getObjectProperty("successMessage_label",createAccountPageObjectPath)).isDisplayed();
     }
+
+    public void testconflict()
+    {
+        System.out.println("test");
+
+    }
 }

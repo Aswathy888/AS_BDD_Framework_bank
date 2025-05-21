@@ -39,6 +39,11 @@ public class CreateAccount extends Framework {
 
     }
 
+    @And("Click on open new account button delete")
+    public void clickOnOpenNewAccountButtonDelete() throws IOException {
+        driver.findElement(getObjectProperty("openNewAccount_button",createAccountPageObjectPath)).click();
+    }
+
 
     @When("the customer enter the (.*)")
     public void theCustomerEnterTheDetails(String dataset) throws IOException {
@@ -57,5 +62,10 @@ public class CreateAccount extends Framework {
     @Then("an Account should be successfully created")
     public void anAccountShouldBeSuccessfullyCreated() throws IOException {
         driver.findElement(getObjectProperty("successMessage_label",createAccountPageObjectPath)).isDisplayed();
+    }
+
+    @And("Click on open new account button delete 2")
+    public void clickOnOpenNewAccountButtonDelete2() throws IOException {
+        driver.findElement(getObjectProperty("openNewAccount_button",createAccountPageObjectPath)).click();
     }
 }

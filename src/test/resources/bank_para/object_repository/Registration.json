@@ -1,11 +1,11 @@
 {
-  "Registration_link": {
+  "Registration_link1": {
     "id": "test",
-    "class": "",
-    "xpath": "",
+    "class": "test",
+    "xpath": "a",
     "name": "",
     "css": "",
-    "link_text": "Register"
+    "link_text": "Register12"
   },
   "firstName_textBox": {
     "id": "customer.firstName",

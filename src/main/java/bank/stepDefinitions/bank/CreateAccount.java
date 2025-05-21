@@ -68,4 +68,9 @@ public class CreateAccount extends Framework {
     public void clickOnOpenNewAccountButtonDelete2() throws IOException {
         driver.findElement(getObjectProperty("openNewAccount_button",createAccountPageObjectPath)).click();
     }
+    public void testconflict()
+    {
+        System.out.println("test");
+
+    }
 }

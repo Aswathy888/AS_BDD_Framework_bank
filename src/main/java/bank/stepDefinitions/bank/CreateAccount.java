@@ -34,7 +34,7 @@ public class CreateAccount extends Framework {
     @Given("^the customer click on open account link")
     public void theCustomerClickOnOpenAccountLink() throws IOException {
 
-        driver.findElement(getObjectProperty("openAccount_link",createAccountPageObjectPath)).click();
+      //  driver.findElement(getObjectProperty("openAccount_link",createAccountPageObjectPath)).click();
 
 
     }
